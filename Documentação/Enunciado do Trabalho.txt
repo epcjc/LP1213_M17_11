@@ -1,0 +1,21 @@
+Gestão de Horto
+
+Determinada cadeia de lojas especializadas no comércio de plantas pediu o desenvolvimento de uma aplicação que permitisse armazenar as características das várias plantas comercializadas. Pretende-se que sejam guardadas as seguintes características:
+
+• Nome científico da planta;
+• Nomes comuns (há plantas com mais do que um nome comum)
+• Meses de floração (há plantas sem flores)
+• Cor(es) das flores para diversas variedades da planta. Por exemplo, determinada planta pode ter flores amarelas ou brancas, mas outra planta diferente pode ter apenas flores brancas
+• Se a planta é de interior ou exterior
+• Se a planta necessita de muita ou pouca luz
+• Frequência de utilização de adubos (em meses)
+• Frequência de rega (em dias)
+• Preço
+
+A aplicação desenvolvidada deve ter as seguintes funcionalidades:
+
+• Permita a inserção de novas plantas
+• Permita a alteração de dados, inclusive a inserção/remoção de outros nomes comuns ou de outras cores possíveis
+• Permita a listagem de todas as plantas que reúnam determindadas características, ordenada pelo preço
+• Permita apagar todos os dados de uma determinada planta
+• (outras funcionalidades serão alvo de valorização)
