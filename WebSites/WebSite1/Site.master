@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Free CSS template by ChocoTemplates.com</title>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<link rel="shortcut icon" href="css/images/favicon.ico" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<!--[if IE 6]>
+		<link rel="stylesheet" href="css/ie6.css" type="text/css" media="all" />
+	<![endif]-->
+	<link rel="stylesheet" href="js/fancybox/jquery.fancybox-1.3.1.css" type="text/css" media="screen" />
+	
+	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+	<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.1.js"></script>
+	<script type="text/javascript" src="js/jquery-func.js"></script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+    <!-- Header -->
+<div id="header">
+	<div class="shell">
+		<!-- Logo -->
+		<h1 id="logo"><a href="#">PIXELTHIS</a></h1>
+		<!-- /Logo -->
+		
+        <!-- Navigation -->
+		<div id="navigation">
+			<ul>
+			    <li><a href="/WebSite1/Default.aspx" class="active">Home</a></li>
+                <li><a href="/WebSite1/Criar_Utilizador.aspx" class="active">Criar Conta</a></li>
+			    <li class="has-dd">
+			    	<a href="#">TEMPLATES</a>
+			    	<div class="dd">
+			    		<ul>
+			    		    <li><a href="#">Free CSS Templates</a></li>
+			    		    <li><a href="#">Choco Templates</a></li>
+			    		    <li><a href="#">Premium Templates</a></li>
+			    		</ul>
+			    	</div>
+		    	</li>
+               
+                    <asp:LoginStatus runat="server">
+                    </asp:LoginStatus>
+                
+			</ul>
+		</div>
+		<!-- /Navigation -->
+		<div class="cl">&nbsp;</div>
+		
+		<!-- Socials -->
+		<div class="socials">
+			<a href="#" class="socials-facebook" title="Connect on Facebook">facebook</a>
+			<a href="#" class="socials-twitter" title="Follow us on Twitter">twitter</a>
+		</div>
+		<!-- /Socials -->
+	</div>
+</div>
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        <center>
+        <div>
+
+
+        </div>
+        </center>
+        
+        </asp:ContentPlaceHolder>
+    
+    </form>
+</body>
+</html>
